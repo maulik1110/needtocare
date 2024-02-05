@@ -12,7 +12,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" Component={Home}/>
-        <Route path="movies/:id" Component={Smovie}/>
+        <Route path="movies/:userid" Component={Smovie}/>
         <Route path="/contact/name" Component={Name}/>
         <Route path="*" Component={Error}/>
       </Routes>

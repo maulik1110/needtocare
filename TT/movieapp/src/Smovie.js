@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 
 const Smovie = () => {
 
-  const {id} = useParams()
+  const {userid} = useParams()
   return (
     <div>Our Movie id is {id}</div>
   )
