@@ -1,0 +1,46 @@
+footer{
+    background-color: var(--first);
+    height: 20vw;
+    width: 100%;
+    padding: 2vw;
+    color: var(--dark);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.one , .follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.one h1{
+    font: 700 2vw var(--text1);
+    text-transform: uppercase;
+    color: var(--third);
+}
+
+.one p{
+    font: 500 1.2vw var(--text1);
+}
+
+.follow h5{
+    font: 300 2vw var(--text1);
+    margin: 1vw 0;
+    text-align: center;
+}
+
+.follow div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.follow a{
+    color: var(--dark);
+    font: 900 1vw var(--text2);
+}
+
+.follow a:hover{
+    color: var(--third);
+}

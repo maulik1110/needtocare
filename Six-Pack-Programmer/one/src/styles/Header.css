@@ -1,0 +1,31 @@
+nav{
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: var(--first);
+    top: 0%;
+    z-index: 10;
+}
+
+nav h1{
+    text-transform: uppercase;
+}
+
+main{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    color: var(--dark);
+    margin: 0.4vw;
+    transition: 0.4s all ease-in-out;
+}
+
+a:hover{
+    color: var(--third);
+}
