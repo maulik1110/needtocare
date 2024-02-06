@@ -6,10 +6,12 @@ import Error from './Routefolder/Error'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Name from "./Routefolder/Name";
 import Smovie from './Smovie'
+import ConA from "./Components/useContext/ConA";
 
 function App() {
   return (
     <>
+    <ConA/>
       <Routes>
         <Route exact path="/" Component={Home}/>
         <Route path="movies/:userid" Component={Smovie}/>

@@ -5,7 +5,7 @@ const Smovie = () => {
 
   const {userid} = useParams()
   return (
-    <div>Our Movie id is {id}</div>
+    <div>Our Movie id is {userid}</div>
   )
 }
 
