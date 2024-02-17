@@ -11,12 +11,12 @@ import ConA from "./Components/useContext/ConA";
 function App() {
   return (
     <>
-    <ConA/>
+    {/* <ConA/> */}
       <Routes>
         <Route exact path="/" Component={Home}/>
         <Route path="movies/:userid" Component={Smovie}/>
-        <Route path="/contact/name" Component={Name}/>
-        <Route path="*" Component={Error}/>
+        {/* <Route path="/contact" Component={Name}/> */}
+        {/* <Route path="*" Component={Error}/> */}
       </Routes>
     </>
   );
