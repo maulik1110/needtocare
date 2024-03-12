@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ::selection{
+    color: rgb(232, 145, 47);
+} */
+
+/* Change text color to orange on selection */
+::selection {
+    background-color: transparent;
+    color: orange; /* This sets the text color to white when selected */
+  }
+  
